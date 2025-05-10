@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Algeria BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Algeria</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Algeria BLS Spain Visa">
+
+    <script>
+        function ShowNotification(msg, type) {
+            $("#toastBody").html(msg);
+            $("#notificationToast").toast("show");
+        }
+        const storedTheme = localStorage.getItem('theme')
+
+        const getPreferredTheme = () => {
+            if (storedTheme) {
+                return storedTheme
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+
+        const setTheme = function (theme) {
+            if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-bs-theme', 'dark')
+            } else {
+                document.documentElement.setAttribute('data-bs-theme', theme)
+            }
+        }
+
+        setTheme(getPreferredTheme())
+
+        window.addEventListener('DOMContentLoaded', () => {
+            var el = document.querySelector('.theme-icon-active');
+            if (el != 'undefined' && el != null) {
+                const showActiveTheme = theme => {
+                    const activeThemeIcon = document.querySelector('.theme-icon-active use')
+                    const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+                    const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+                    document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                        element.classList.remove('active')
+                    })
+
+                    btnToActive.classList.add('active')
+                    activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+                }
+
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                    if (storedTheme !== 'light' || storedTheme !== 'dark') {
+                        setTheme(getPreferredTheme())
+                    }
+                })
+
+                showActiveTheme(getPreferredTheme())
+
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', () => {
+                            const theme = toggle.getAttribute('data-bs-theme-value')
+                            localStorage.setItem('theme', theme)
+                            setTheme(theme)
+                            showActiveTheme(theme)
+                        })
+                    })
+
+            }
+        })
+
+    </script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://algeria.blsspainglobal.com/assets/images/favicon.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/font-awesome/css/all.min.css?v=AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k">
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/bootstrap-icons/bootstrap-icons.css?v=4RctOgogjPAdwGbwq-rxfwAmSpZhWaafcZR9btzUk18">
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/tiny-slider/tiny-slider.css?v=1CXVlacnwYLmg9X2AhCKvYcSgR53GWiU3z4qZJDrb68">
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/glightbox/css/glightbox.css?v=yMoCTayb6wccTz561YN_R0qkP756JifYXnA40MUtR-k">
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/flatpickr/css/flatpickr.min.css?v=RXPAyxHVyMLxb0TYCM2OW5R4GWkcDe02jdYgyZp41OU">
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/vendor/choices/css/choices.min.css?v=IhTRSpOAAOl37YqrDOlNjxD6S4lzZ_n2WqKtc03i0mE">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=CJhTkVmGHvWZRE3zX8Z_q23nYkeJQHqx-4TqNQdi9Hg">
+
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/assets/css/color.css?v=biNDUrJj74VlRbGB7tvoVV8aOPeiVsRt7L_VDdhggXQ" />
+
+    <link rel="stylesheet" type="text/css" href="https://algeria.blsspainglobal.com/css/site.css?v=ekmtryaKttePPamW3CxEz99-N5ruMwA9JAkOw57RgzI" />
+
+    
+    <script src="https://algeria.blsspainglobal.com/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://algeria.blsspainglobal.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://algeria.blsspainglobal.com/assets/vendor/jquery-ajax-unobtrusive/jquery-ajax-unobtrusive.js"></script>
+    <script src="https://algeria.blsspainglobal.com/assets/vendor/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $.ajaxSetup({
+            cache: false,
+            beforeSend: function (xhr, options) {
+                if (options.type.toUpperCase() == "POST") {
+                    xhr.setRequestHeader("RequestVerificationToken", $('input:hidden[name="__RequestVerificationToken"]').val());
+                    xhr.setRequestHeader("YACINEASTEDST", "FUCKED-HAHAHAHAA";
+                }
+
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-item">
+            <div class="spinner-grow text-primary"></div>
+        </div>
+    </div>
+    <div id="global-overlay" class="global-overlay">
+        <div class="global-overlay-loader">
+        </div>
+    </div>
+
+        <script src="https://web-sdk.prod.cdn.spain.ozforensics.com/blsinternational/plugin_liveness.php"></script>
+
+<style>
+    .ozliveness_logo {
+        display: none !important;
+    }
+
+    .ozliveness_version {
+        display: none !important;
+    }
+</style>
+<script>
+    window.addEventListener('load', function () {
+        OzLiveness.open({
+            lang: 'en',
+            meta: {
+                'user_id': '5b459b28-83d2-4d15-a839-428e7f11d8ec',
+                'transaction_id': '247b74fe-b2e9-4abc-8847-ff62c908c8d0'
+            },
+            overlay_options: false,
+            action: [
+                'video_selfie_blank'
+            ],
+            result_mode: 'safe',
+            on_complete: function (result) {
+                //alert(result)
+                alert(result.event_session_id)
+                $("#LivenessId").val(result.event_session_id);
+
+
+               // $("#formLiveness").submit();
+                ShowLoader();
+            }
+        });
+    });
+</script>
+<div class="preloader">
+    <div class="preloader-item">
+        <div class="spinner-grow text-primary"></div>
+    </div>
+</div>
+<div id="global-overlay" class="global-overlay">
+    <div class="global-overlay-loader">
+    </div>
+</div>
+<form id="formLiveness" method="post" action="https://algeria.blsspainglobal.com/DZA/appointment/LivenessResponse">
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GCCDmfGPIJDhdIFBVxJ0hHL4Y1ZyOYwlqvFFHPDX20uI3--C2xj1ly50PKQmYlb0_fsEWy3ufAPvexJ59foEGO99UHwHFN0j_IPkJWak3FcOv8I0ywp62dKjvqDuzTSxzqI_0mni6ljQH7RmWe3vV_5i6sAkMZCLHGmQk5xTBdu1lx5emOItHA21IepHUKBVQ" />
+    <input type="hidden" id="LivenessData" name="LivenessData" value="CW8hca0/jLhP4JtiQYYBl3n7pnzlOmc92Lx3/g1iKXwxx1Vf5FjSzwCZxe9khYNr&#x2B;zmZ&#x2B;kF7K/7dkL2QT5u/REOFbDjE/Tp9niU8LL010tMx0jHSHV15lQ&#x2B;tJg/RDO&#x2B;B7DAloeY5mQ/k4jTf2cHAzex6y1zObyZnsHC95tjLXB1yewAFvGPMSR9lk0Th2eE9t6j/4Urt&#x2B;HhKPMReYoywEc/2E0Tw/3LMaRLJJ7TPUIvWDtDNnBobxiJUcOi/UmVnuLSo4nVzKsZ95wkV7FGDs&#x2B;fxIE8BkbhBKQ62Q4wbSJxLlo7WDNkm5QO4zgzNghXd" />
+    <input type="hidden" id="AppointmentData" name="AppointmentData" value="CW8hca0/jLhP4JtiQYYBl3n7pnzlOmc92Lx3/g1iKXwxx1Vf5FjSzwCZxe9khYNr&#x2B;zmZ&#x2B;kF7K/7dkL2QT5u/REOFbDjE/Tp9niU8LL010tMx0jHSHV15lQ&#x2B;tJg/RDO&#x2B;B7DAloeY5mQ/k4jTf2cHAzex6y1zObyZnsHC95tjLXB1yewAFvGPMSR9lk0Th2eE9t6j/4Urt&#x2B;HhKPMReYoywEc/2E0Tw/3LMaRLJJ7TPUIvWDtDNnBobxiJUcOi/UmVnuLSo4nVzKsZ95wkV7FGDs&#x2B;fxIE8BkbhBKQ62Q4wbSJxLlo7WDNkm5QO4zgzNghXd" />
+    <input type="hidden" id="LivenessId" name="LivenessId" value="" />
+</form>
+
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Vendors -->
+    <script src="/assets/vendor/tiny-slider/tiny-slider.js"></script>
+    <script src="/assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.js"></script>
+    <script src="/assets/vendor/flatpickr/js/flatpickr.min.js"></script>
+    <script src="/assets/vendor/choices/js/choices.min.js"></script>
+    <script src="/assets/vendor/jarallax/jarallax.min.js"></script>
+    <script src="/assets/vendor/jarallax/jarallax-video.min.js"></script>
+
+    <!-- ThemeFunctions -->
+    <script src="https://algeria.blsspainglobal.com/assets/js/functions.js"></script>
+    <script src="https://algeria.blsspainglobal.com/js/site.js"></script>
+
+
+    <script>
+        var iframeOpenUrl = "";
+        var globalPopups = GetStack();
+        var globalCallBack = null;
+        var globalWindowSender = null;
+        function OnLanguageChange(lng) {
+            if (lng === 'en-US') {
+                return false;
+            }
+            ShowLoader();
+            $.ajax({
+                type: "POST",
+                url: "/DZA/account/ChangeLanguage?hdnLang=" +lng,
+                success: function (response) {
+                    HideLoader();
+                    if (response != "" && response != null && response.success === true) {
+                        window.location.href = window.location.href;
+                    }
+                },
+                error: function (response) {
+                    HideLoader();
+                    alert("error");
+                },
+            });
+              return false;
+        }
+        function OnLogout() {
+            $('#logoutModal').modal('show');
+        }
+        function OnLogoutSubmit() {
+            ShowLoader();
+            $.ajax({
+                type: "POST",
+                url: "/DZA/account/logout",
+                success: function (response) {
+                    HideLoader();
+                    if (response != "" && response != null && response.success === true) {
+                        window.location.href = response.ru;
+                    }
+                },
+                error: function (response) {
+                    HideLoader();
+                    alert(response.error);
+                },
+            });
+            return false;
+        }
+    </script>
+    
+</body>
+</html>
